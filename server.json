@@ -1,0 +1,22 @@
+{
+    "name": "Netatmo Weather",
+    "docs": "http;//www.bobsplace.com/release/WFNodeserver",
+    "type": "python3",
+    "executable": "netatmo.py",
+    "install": "install.sh",
+    "description": "Add weather data from Netamo to the SY994",
+    "notice": "see http://www.metatmo.com for more information",
+    "shortPoll": "5",
+    "longPoll": "60",
+    "profile_version": "0.1.0",
+    "credits": [
+    	{
+    		"title": "Metatmo: Weather Data",
+    		"author": "Bob Paauwe",
+    		"version": "0.1.0",
+    		"date": "September 24, 2018",
+    		"source": "https://github.com/bpaauwe/netamopoly",
+            "license": "https://github.com/bpaauwe/netamopoly/LICENSE"
+		}
+	]
+}
